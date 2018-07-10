@@ -69,7 +69,7 @@ Let's fix this by adding the stylesheet to the `head` like so,
 ```
 Link is a self closing tag that will create a relative path with the `href` attribute.  A relative path means the browser knows that the `main.css` file is in the same place as `index.html`.  The `head` is a hidden part of the page that tells the browser where to find any other files it needs to display the page correctly, the `title` for the tab, and any other possible important information.
 
-Now if you refresh the `index.html` page in your browser you should see an ugly black rainbow.  Gerd Jerb!
+Now if you refresh the `index.html` page in your browser you should see a goth rainbow.  Gerd Jerb!
 
 Okay so we got the basic outline because in the `main.css` all the `div` elements were selected and styled, but the colors are wrong because the default border color is black.  To fix this we need to learn a little bit more about colors, because while we could just set `color: red;` we should learn how to make colors without words.  We should just use numbers, and not just any set of numbers, but numbers with base pair of 16 rather than base pair of 10 like we use everyday.  These numbers are called hexadecimals and we can use them to make colors.
 
